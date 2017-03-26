@@ -11,3 +11,6 @@ class Test {
         echo 'test composer';
     }
 }
+
+$t = new Test;
+$t->test();
