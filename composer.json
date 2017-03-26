@@ -1,0 +1,22 @@
+{
+    "name": "xx-tswang/testComposer",
+    "description": "test composer",
+    "license": "MIT",
+    "keywords": ["test composer"],
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "tian.shuowang",
+            "email": "tianshuowang@sina.cn"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+ 
+    "autoload": {
+        "psr-0": {
+            "testComposer": "models/"
+        }
+    }
+}
